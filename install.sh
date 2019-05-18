@@ -213,7 +213,7 @@ set_systemd() {
             pwd="blog.sprov.xyz"
         fi
         init_config
-        if [[ x"${first}" == x"n" ]]; then
+        if [[ x"${first}" == x"n" ]]; then 
             echo ""
             echo -e "${green}设置了新的端口、用户名和密码后记得重启面板${plain}"
         fi
